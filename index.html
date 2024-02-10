@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Task! -> List!</h1>
+    </header>
+    <main>
+        <section class="input-field">
+            <div class="container">
+                <span class="container__text">To do:</span>
+                <input class="container__input" placeholder="Enter your task here!" id="task_input" type="text"> 
+                <button class="container__button" onclick="addTask(); resetValue('task_input')">Create!</button>
+            </div>
+        </section>
+        <section class="task-list">
+            <div class="container">
+                <ul class="list" id="task-list">
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
